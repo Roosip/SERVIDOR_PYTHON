@@ -25,7 +25,7 @@ while True:
     print('CONEXÃO COM O CLIENTE FINALIZADA...', enderecoIP, ' EM: ',datetime.now().strftime('%d/%m/%y - %H:%M:%S'))# aqui vai imprimir a mensagem caso o cliente interrompa a conexão
     conexao.close()
 
-"""Nas linhas 12, 16, 23 e 225, foi acrescentada a função datetime.now()
+"""Nas linhas 12, 16, 23 e 25, foi acrescentada a função datetime.now()
 que captura a data do sistema e com o print a data e a hora também são impressas, foi utilizada
 junto à função strftime() para formatarmos a data e a hora do sistema, porque a data vem no
 padrão britânico: ano/mês/dia e os segundos são mostrados em frações de até milissegundos.
